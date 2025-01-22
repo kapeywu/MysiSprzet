@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body::-webkit-scrollbar{
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0rem;
+
+  /* overflow: hidden; */
+
+  background-color: black;
+  color: white;
+
+  /* font-family: "Space Mono", monospace; */
+  font-family: "Space Grotesk";
+  line-height: 200%;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.left {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  /* color: white */
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.right {
+  display: flex;
+}
+
+.right a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+img.image {
+  width: 100%;
+  max-width: 100%; 
+  height: auto;
+}
+
+.contact {
+  width: 20rem;
+  margin: 0 auto;
+  /* text-align: center; */
+  display: flex;
+  /* align-items: center; */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: orangered;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.containerS {
+  display: block;
+  justify-content: center;
+  align-items: top;
+}
+
+
+
+.box {
+
+  display: block;
+  justify-content: center;
+  padding: 10px 10px;
+  background-color: black;
+  border: 2px solid paleturquoise;
+  border-radius: 10px;
+  color: paleturquoise;
+  
+  margin: auto;
+  cursor: pointer;
+  width: 200px;
+  margin-bottom: 10px;
+  font-size: 80%;
+  line-height: 120%;
+}
+
+
+.boxM {
+  align-items: center;
+  font-family: "Space Mono", monospace;
+  display: block;
+  justify-content: center;
+  padding: 10px 10px;
+  background-color: black;
+  border: 2px solid crimson;
+  border-radius: 10px;
+  color: crimson;
+  
+  margin: auto;
+  cursor: pointer;
+  width: 200px;
+  margin-bottom: 10px;
+  font-size: 80%;
+  line-height: 120%;
+  
+}
+
+.boxMP {
+  align-items: center;
+  font-family: "Space Mono", monospace;
+  display: block;
+  justify-content: center;
+  padding: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  color: crimson;
+  border-radius: 20px;
+  margin: auto;
+  cursor: pointer;
+  width: 80px;
+  height: 80px; /* Fixed height */
+  margin-bottom: 10px;
+  font-size: 80%;
+  line-height: 120%;
+}
+
+.box:hover {
+  color: orangered;
+  border-color: orangered;
+}
+
+.boxM:hover {
+  color: orangered;
+  border-color: orangered;
+}
+
+.btn {
+
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  background-color: black;
+  border: 3px solid white;
+  border-radius: 10px;
+  color: white;
+  
+  margin: auto;
+  cursor: pointer;
+  width: 200px;
+  margin-bottom: 10px;
+  font-size: 150%;
+  
+}
+
+.btn:hover {
+  color: orangered;
+  border-color: orangered;
+}
+
+.svg-icon {
+  margin-right: 15px;
+  /* margin-left: 20px; */
+  fill: white;
+}
+
+.btn:hover .svg-icon {
+  fill: orangered;
+}
+
+
+.flexCont {
+  display: flex;
+}
+
